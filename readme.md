@@ -1,4 +1,4 @@
-# 3D Personal Website
+# Bruce's Personal Website
 
 ### Prerequisites
 Node.js should be installed on your machine:
