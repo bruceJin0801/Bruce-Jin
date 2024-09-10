@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "nuxt generate",
+    "build": "mkdir -p dist && nuxt generate",
     "preview": "vite preview"
   },
   "devDependencies": {
