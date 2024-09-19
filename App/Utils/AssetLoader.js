@@ -1,6 +1,6 @@
 import * as THREE from '../../three.module.js'
-import { GLTFLoader } from 'https://cdn.skypack.dev/three@0.129.0/examples/jsm/loaders/GLTFLoader.js';
-import { DRACOLoader } from 'https://cdn.skypack.dev/three@0.129.0/examples/jsm/loaders/DRACOLoader.js';
+import { GLTFLoader } from 'https://cdn.skypack.dev/three@0.132.0/examples/jsm/loaders/GLTFLoader.js';
+import { DRACOLoader } from 'https://cdn.skypack.dev/three@0.132.0/examples/jsm/loaders/DRACOLoader.js';
 
 import assetStore from './AssetStore.js'
 
