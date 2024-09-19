@@ -1,5 +1,5 @@
 import * as THREE from '../../three.module.js';
-import App from '../App';
+import App from '../App.js';
 import ModalManager from '../UI/ModalManager.js';
 
 export default class Hover {
