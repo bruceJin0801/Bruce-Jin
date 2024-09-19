@@ -14,7 +14,7 @@ export default class Portal {
       this.modalInfo = modalInfo;
       this.ModalManager = new ModalManager();
       this.flag = false;
-      this.bubbleSound = new Audio(bubbleSound);
+    //   this.bubbleSound = new Audio(bubbleSound);
     }
    
 

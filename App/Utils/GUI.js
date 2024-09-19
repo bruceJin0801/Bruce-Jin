@@ -1,4 +1,4 @@
-import { Pane } from '../../tweakpane/dist/tweakpane.js';
+import { Pane } from 'tweakpane';
 
 export default class GUI {
     constructor() {
