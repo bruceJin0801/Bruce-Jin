@@ -14,7 +14,6 @@ export default class Portal {
       this.modalInfo = modalInfo;
       this.ModalManager = new ModalManager();
       this.flag = false;
-    //   this.bubbleSound = new Audio(bubbleSound);
     }
    
 
@@ -28,29 +27,23 @@ export default class Portal {
                 if (!this.flag) {
                     if (this.modalInfo.title === "University of Waterloo") {
 
-                        document.getElementById("bubble").play();
-                        // this.geeseSound = new Audio(geeseSound);
-                        // this.geeseSound.play();
+                        document.getElementById("geese").play();
                     }
-                    // if (this.modalInfo.title === "UKG") {
-                    //     this.dingSound = new Audio(dingSound);
-                    //     this.dingSound.play();
-                    // }
-                    // if (this.modalInfo.title === "Proactive AI Lab") {
-                    //     this.techSound = new Audio(techSound);
-                    //     this.techSound.play();
-                    // }
-                    // if (this.modalInfo.title === "Ford") {
-                    //     this.hornSound = new Audio(hornSound);
-                    //     this.hornSound.play();
-                    // }
-                    // if (this.modalInfo.title === "Blue Streak Electronics") {
-                    //     this.metalSound = new Audio(metalSound);
-                    //     this.metalSound.play();
-                    // }
-                    // if (this.modalInfo.title === "JD.com") {
-                    //     this.bubbleSound.play();
-                    // }
+                    if (this.modalInfo.title === "UKG") {
+                        document.getElementById("ding").play();
+                    }
+                    if (this.modalInfo.title === "Proactive AI Lab") {
+                        document.getElementById("tech").play();
+                    }
+                    if (this.modalInfo.title === "Ford") {
+                        document.getElementById("horn").play();
+                    }
+                    if (this.modalInfo.title === "Blue Streak Electronics") {
+                        document.getElementById("metal").play();
+                    }
+                    if (this.modalInfo.title === "JD.com") {
+                        document.getElementById("bubble").play();
+                    }
                     this.ModalManager.openModal(this.modalInfo.title, this.modalInfo.description);
                 }
                 this.flag = true;
