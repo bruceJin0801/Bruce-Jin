@@ -3,7 +3,7 @@ import topLevelAwait from "vite-plugin-top-level-await";
 
 export default {
     root: '.',
-    publicDir: 'static',
+    publicDir: '../static/',
     base: "/personal-website/",
     plugins: [
         wasm(),
