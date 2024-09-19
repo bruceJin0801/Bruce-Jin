@@ -1,5 +1,5 @@
 import * as THREE from '../three.module.js'
-import { OrbitControls } from "three/addons/controls/OrbitControls.js";
+import { OrbitControls } from "../OrbitControls.js";
 import { sizesStore } from './Utils/Store.js';
 
 
