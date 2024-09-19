@@ -14,9 +14,25 @@ export default class ModalManager {
       document.getElementById("modalDescription").innerHTML = description;
       console.log(title)
       if (title == 'About Bruce') {
-        document.getElementById("modalTitle").style.color = 'red';
-      } else {
-        document.getElementById("modalTitle").style.color = 'black';
+        document.getElementById("modalTitle").style.color = '#4fced2';
+      }
+      else if (title == 'University of Waterloo') {
+        document.getElementById("modalTitle").style.color = '#b9a61c';
+      }
+      else if (title == 'JD.com') {
+        document.getElementById("modalTitle").style.color = '#ea6739';
+      }
+      else if (title == 'Blue Streak Electronics') {
+        document.getElementById("modalTitle").style.color = '#1cb9a4';
+      }
+      else if (title == 'Ford') {
+        document.getElementById("modalTitle").style.color = '#227ac0';
+      }
+      else if (title == 'UKG') {
+        document.getElementById("modalTitle").style.color = '#1aa273';
+      }
+      else if (title == 'Proactive AI Lab') {
+        document.getElementById("modalTitle").style.color = '#8daaa0';
       }
       this.modal.style.display = "block";
       this.modal.classList.remove('fadeOut');
