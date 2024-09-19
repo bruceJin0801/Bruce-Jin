@@ -37,7 +37,7 @@ export default class Preloader {
         this.startButton.classList.add('fadeIn')
 
         this.startButton.addEventListener('click', () => {
-            document.getElementById('welcome').play()
+            document.getElementById('welcom').play()
             console.log('started')
             this.overlay.classList.add('fade')
             this.startButton.classList.add('fadeOut')
