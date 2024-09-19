@@ -17,7 +17,7 @@ export default class AssetLoader {
 
     instantiateLoaders() {
         const dracoLoader = new DRACOLoader()
-        dracoLoader.setDecoderPath('/Personal-website/draco/')
+        dracoLoader.setDecoderPath('/Bruce-Jin/draco/')
         this.gltfLoader = new GLTFLoader()
         this.gltfLoader.setDRACOLoader(dracoLoader)
         this.textureLoader = new THREE.TextureLoader()
