@@ -1,6 +1,6 @@
 import assetStore from '../Utils/AssetStore.js'
 import { appStateStore } from '../Utils/Store.js'
-import welcome from '../../static/sound/welcom.mp3'
+// import welcome from '../../static/sound/welcom.mp3'
 export default class Preloader {
     constructor() {
         this.assetStore = assetStore
@@ -37,8 +37,8 @@ export default class Preloader {
         this.startButton.classList.add('fadeIn')
 
         this.startButton.addEventListener('click', () => {
-            this.welcome = new Audio(welcome);
-            this.welcome.play();
+            // this.welcome = new Audio(welcome);
+            // this.welcome.play();
             console.log('started')
             this.overlay.classList.add('fade')
             this.startButton.classList.add('fadeOut')
