@@ -1,4 +1,4 @@
-import { createStore } from  "zustand/vanilla";
+import { createStore } from  "https://esm.sh/zustand/vanilla";
 
 export const sizesStore = createStore(() => ({
     width: window.innerWidth,
