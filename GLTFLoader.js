@@ -61,7 +61,7 @@ import {
 	Vector3,
 	VectorKeyframeTrack,
 	sRGBEncoding
-} from 'https://esm.sh/three';
+} from 'three';
 import { toTrianglesDrawMode } from './BufferGeometryUtils.js';
 
 class GLTFLoader extends Loader {
