@@ -1,4 +1,4 @@
-import { createStore } from "../../vanilla";
+import { createStore } from "../../vanilla.d.ts";
 
 const assetsToLoad = [
   {
