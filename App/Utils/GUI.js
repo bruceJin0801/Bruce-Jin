@@ -1,4 +1,4 @@
-import { Pane } from 'tweakpane';
+import { Pane } from 'https://esm.sh/tweakpane';
 
 export default class GUI {
     constructor() {
