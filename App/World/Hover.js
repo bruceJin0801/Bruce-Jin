@@ -1,6 +1,6 @@
-import * as THREE from '../../three.module';
+import * as THREE from '../../three.module.js';
 import App from '../App';
-import ModalManager from '../UI/ModalManager';
+import ModalManager from '../UI/ModalManager.js';
 
 export default class Hover {
     constructor(portalMesh, modalInfo) {
