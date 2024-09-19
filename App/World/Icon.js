@@ -1,4 +1,4 @@
-import * as THREE from 'three';
+import * as THREE from '../../three.module.js';
 import App from '../App';
 
 export default class Icon {

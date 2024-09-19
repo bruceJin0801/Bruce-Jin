@@ -1,4 +1,4 @@
-import * as THREE from 'three';
+import * as THREE from '../../three.module';
 import App from '../App';
 import ModalManager from '../UI/ModalManager';
 

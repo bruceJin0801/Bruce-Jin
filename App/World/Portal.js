@@ -1,5 +1,5 @@
-import * as THREE from 'three';
-import App from '../App';
+import * as THREE from '../../three.module.js';
+import App from '../App.js';
 import ModalManager from '../UI/ModalManager';
 import bubbleSound from '../../static/sound/bubble.mp3';
 import geeseSound from '../../static/sound/geese.mp3';
