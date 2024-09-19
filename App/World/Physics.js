@@ -18,7 +18,7 @@ export default class Physics {
     this.meshMap = new Map();
 
     // setting the physics world
-    import("@dimforge/rapier3d").then((RAPIER) => {
+    import("https://cdn.skypack.dev/@dimforge/rapier3d").then((RAPIER) => {
       const gravity = { x: 0, y: -9.81, z: 0 };
       this.world = new RAPIER.World(gravity);
       this.rapier = RAPIER;
