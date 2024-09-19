@@ -26,10 +26,12 @@ export default class Portal {
             const distance = this.character.position.distanceTo(portalPosition);
             if (distance < 2.5) {
                 if (!this.flag) {
-                    // if (this.modalInfo.title === "University of Waterloo") {
-                    //     this.geeseSound = new Audio(geeseSound);
-                    //     this.geeseSound.play();
-                    // }
+                    if (this.modalInfo.title === "University of Waterloo") {
+
+                        document.getElementById("bubble").play();
+                        // this.geeseSound = new Audio(geeseSound);
+                        // this.geeseSound.play();
+                    }
                     // if (this.modalInfo.title === "UKG") {
                     //     this.dingSound = new Audio(dingSound);
                     //     this.dingSound.play();
