@@ -3,12 +3,12 @@ import { createStore } from "https://esm.sh/zustand/vanilla";
 const assetsToLoad = [
   {
     id:'avatar',
-    path:'/models/avatar.glb',
+    path:'/personal-website/models/avatar.glb',
     type: 'model' 
   },
   {
     id:'environment',
-    path:'/models/environment.glb',
+    path:'/personal-website/models/environment.glb',
     type: 'model' 
   }
 ];
