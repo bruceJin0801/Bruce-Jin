@@ -1,6 +1,7 @@
-import * as THREE from ".././../three.module.js";
+import * as THREE from "../../three.module.js";
 import App from "../App.js";
 import { appStateStore } from "../Utils/Store.js";
+import RAPIER from 'https://cdn.skypack.dev/@dimforge/rapier3d-compat';
 
 /**
  * Class representing a physics simulation
@@ -10,6 +11,13 @@ export default class Physics {
    * Creates an instance of Physics.
    */
   constructor() {
+    this.init();
+  }
+
+  /**
+   * Initializes the physics simulation
+   */
+  async init() {
     // getting the app instance
     this.app = new App();
     this.scene = this.app.scene;
@@ -18,15 +26,15 @@ export default class Physics {
     this.meshMap = new Map();
 
     // setting the physics world
-    import("@dimforge/rapier3d").then((RAPIER) => {
-      const gravity = { x: 0, y: -9.81, z: 0 };
-      this.world = new RAPIER.World(gravity);
-      this.rapier = RAPIER;
+    await RAPIER.init();
+    const gravity = { x: 0, y: -9.81, z: 0 };
+    this.world = new RAPIER.World(gravity);
+    this.rapier = RAPIER;
 
-      this.rapierLoaded = true;
-      appStateStore.setState({ physicsReady: true });
-    });
+    this.rapierLoaded = true;
+    appStateStore.setState({ physicsReady: true });
   }
+
 
   /**
    * Adds a mesh to the physics simulation with a given rigid body type and collider type
