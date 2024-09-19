@@ -41,7 +41,7 @@ export default class Portal {
                     if (this.modalInfo.title === "Blue Streak Electronics") {
                         document.getElementById("metal").play();
                     }
-                    if (this.modalInfo.title === "JD.com") {
+                    else {
                         document.getElementById("bubble").play();
                     }
                     this.ModalManager.openModal(this.modalInfo.title, this.modalInfo.description);
