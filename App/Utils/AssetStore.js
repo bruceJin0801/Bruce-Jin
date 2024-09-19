@@ -1,4 +1,4 @@
-import { createStore } from "../../vanilla.d.ts";
+import { createStore } from "../../node_modules/zustand/vanilla";
 
 const assetsToLoad = [
   {
