@@ -1,4 +1,4 @@
-import { createStore } from "../../node_modules/zustand/vanilla";
+import { createStore } from  "zustand/vanilla";
 
 export const sizesStore = createStore(() => ({
     width: window.innerWidth,
