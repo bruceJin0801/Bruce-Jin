@@ -1,4 +1,5 @@
-import * as THREE from 'three'
+// import * as THREE from 'three'
+import * as THREE from "../node_modules/three/build/three.module.js"
 import Camera from './Camera.js'
 import Renderer from './Renderer.js'
 import Loop from './Utils/Loop.js'
